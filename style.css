@@ -1,0 +1,316 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.circle {
+  border: 5px solid black;
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff0000; /* Red color for the point */
+}
+.number12 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+.number6 {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+.number3 {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+.number9 {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 44px;
+  font-weight: bold;
+}
+.line1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 300px;
+  height: 2px;
+  background-color: red;
+  transform-origin: bottom left;
+}
+.line2 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 200px;
+  height: 4px;
+  background-color: black;
+  transform-origin: bottom left;
+}
+.line3 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 100px;
+  height: 6px;
+  background-color: black;
+  transform-origin: bottom left;
+}
+
+.line_1 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-15deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_2 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-30deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_3 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_4 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-60deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_5 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-75deg);
+  clip-path: inset(0 0 30% 90%);
+}
+
+.line_6 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-105deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_7 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-120deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_8 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-135deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_9 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-150deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_10 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-165deg);
+  clip-path: inset(0 0 30% 90%);
+}
+
+.line_11 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-195deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_12 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-210deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_13 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-225deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_14 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-240deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_15 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-255deg);
+  clip-path: inset(0 0 30% 90%);
+}
+
+.line_16 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-285deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_17 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-300deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_18 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-315deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_19 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-330deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_20 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-345deg);
+  clip-path: inset(0 0 30% 90%);
+}

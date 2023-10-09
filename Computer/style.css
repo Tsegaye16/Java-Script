@@ -1,0 +1,78 @@
+body {
+  pad: 0;
+  margin: 0;
+  background-color: black;
+}
+.container {
+  margin-top: 120px;
+}
+.row {
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  row-gap: 6px;
+}
+button {
+  color: white;
+  background-color: black;
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 10px wheat, -5px -5px 10px black;
+  cursor: pointer;
+}
+.key {
+  width: 60px;
+}
+.delete {
+  width: 80px;
+}
+.backspace {
+  width: 150px;
+}
+.esc {
+  width: 80px;
+}
+.tab {
+  width: 110px;
+}
+.dud {
+  width: 110px;
+}
+.enter {
+  width: 155px;
+}
+.caps {
+  width: 135px;
+}
+.shift1 {
+  width: 170px;
+}
+.shift2 {
+  width: 190px;
+}
+.spe {
+  width: 60px;
+  height: 40px;
+}
+.space {
+  width: 378px;
+}
+.end {
+  flex-direction: row;
+}
+
+.row2 {
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  row-gap: 10px;
+}

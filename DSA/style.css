@@ -1,0 +1,16 @@
+body {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top left, aquamarine, yellow);
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 70px;
+
+  width: 50%;
+  position: absolute;
+  right: 25%;
+  top: 80px;
+}

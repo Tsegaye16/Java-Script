@@ -4,7 +4,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: aquamarine;
+  background-color: black;
 }
 
 .circle {
@@ -13,7 +13,7 @@ body {
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background-color: #3498db;
+  background-color: whitesmoke;
 }
 
 .circle::before {
@@ -32,8 +32,8 @@ body {
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-size: 24px;
+  color: black;
+  font-size: 44px;
   font-weight: bold;
 }
 .number6 {
@@ -41,8 +41,8 @@ body {
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-size: 24px;
+  color: black;
+  font-size: 44px;
   font-weight: bold;
 }
 .number3 {
@@ -50,8 +50,8 @@ body {
   right: 5px;
   top: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-size: 24px;
+  color: black;
+  font-size: 44px;
   font-weight: bold;
 }
 .number9 {
@@ -59,8 +59,8 @@ body {
   left: 12px;
   top: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  font-size: 24px;
+  color: black;
+  font-size: 44px;
   font-weight: bold;
 }
 .line1 {
@@ -71,107 +71,246 @@ body {
   height: 2px;
   background-color: red;
   transform-origin: bottom left;
-  transform: rotate(-30deg);
 }
 .line2 {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  width: 300px;
+  width: 200px;
   height: 4px;
   background-color: black;
   transform-origin: bottom left;
-  transform: rotate(-60deg);
 }
 .line3 {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  width: 300px;
+  width: 100px;
   height: 6px;
   background-color: black;
   transform-origin: bottom left;
-  transform: rotate(-90deg);
 }
 
-.number2 {
+.line_1 {
   position: absolute;
-  bottom: 72.7%;
-  left: 91.6%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-15deg);
+  clip-path: inset(0 0 50% 90%);
 }
-.number1 {
+.line_2 {
   position: absolute;
-  bottom: 90%;
-  left: 73%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-30deg);
+  clip-path: inset(0 0 -20% 85%);
 }
-.number11 {
+.line_3 {
   position: absolute;
-  bottom: 90%;
-  left: 24%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-45deg);
+  clip-path: inset(0 0 30% 90%);
 }
-.number10 {
+.line_4 {
   position: absolute;
-  bottom: 72.7%;
-  left: 7%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-60deg);
+  clip-path: inset(0 0 -20% 85%);
 }
-.number4 {
+.line_5 {
   position: absolute;
-  top: 72.7%;
-  left: 91.6%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-}
-.number5 {
-  position: absolute;
-  top: 90%;
-  left: 73%;
-  transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-75deg);
+  clip-path: inset(0 0 30% 90%);
 }
 
-.number7 {
+.line_6 {
   position: absolute;
-  top: 90%;
-  left: 24%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
   transform-origin: bottom left;
-
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+  transform: rotate(-105deg);
+  clip-path: inset(0 0 50% 90%);
 }
-.number8 {
+.line_7 {
   position: absolute;
-  top: 72.7%;
-  left: 7%;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
   transform-origin: bottom left;
+  transform: rotate(-120deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_8 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-135deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_9 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-150deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_10 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-165deg);
+  clip-path: inset(0 0 30% 90%);
+}
 
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
+.line_11 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-195deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_12 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-210deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_13 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-225deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_14 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-240deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_15 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-255deg);
+  clip-path: inset(0 0 30% 90%);
+}
+
+.line_16 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-285deg);
+  clip-path: inset(0 0 50% 90%);
+}
+.line_17 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-300deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_18 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-315deg);
+  clip-path: inset(0 0 30% 90%);
+}
+.line_19 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 3px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-330deg);
+  clip-path: inset(0 0 -20% 85%);
+}
+.line_20 {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  transform-origin: bottom left;
+  transform: rotate(-345deg);
+  clip-path: inset(0 0 30% 90%);
 }
